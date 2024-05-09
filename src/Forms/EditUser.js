@@ -22,7 +22,7 @@ const EditUserForm = (props) => {
                 
             }
         }>
-            <label>name</label>
+            <label>Name</label>
             <input type="text" onChange= {handleInputChange} name="name" value={user.name} />
             <label>UserNAME</label>
             <input type="text" onChange= {handleInputChange} name="username"  value={user.username}/>
